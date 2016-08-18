@@ -1,0 +1,24 @@
+{
+  "name": "browserify-hello-world",
+  "version": "1.0.0",
+  "description": "An exploration of Browserify and the 'Hello World' theme.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "watchify src/index.js -o dist/bundle.js -v",
+    "build": "browserify src/index.js -o dist/bundle.js -v"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveharmswebdev/browserify-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveharmswebdev/browserify-hello-world/issues"
+  },
+  "homepage": "https://github.com/daveharmswebdev/browserify-hello-world#readme"
+}
