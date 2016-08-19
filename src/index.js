@@ -1,3 +1,5 @@
 'use strict';
 
-console.log('Hello World!');
+$(function() {
+  $('body').append('<h1>Hello World</h1>');
+});
