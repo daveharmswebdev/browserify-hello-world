@@ -33,3 +33,5 @@ At the very least I suggest these two entries in you .gitignore.
 dist/bundle.js
 node_modules
 ```
+### The branches of this repo.
+Each branch ( consolelog, hwModule, npmJQuery, robustModule ) corresponds with a markdown file in /docs. They show the step wise progression of this repository as the hello world app gets more and more mileage out of Broswerify.

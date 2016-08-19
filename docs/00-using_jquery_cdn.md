@@ -1,6 +1,7 @@
 # Hello World with JQuery.
 
 ## JQuery the old-fashioned way.
+*See the consoleLog branch.*
 
 We all know how to use JQuery with the cdn. Got to [jQuery](https://code.jquery.com/) or the [google hosted libraries](https://developers.google.com/speed/libraries/) and copy and the paste the script in our index.html.
 

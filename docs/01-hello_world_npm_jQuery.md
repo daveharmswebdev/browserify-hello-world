@@ -1,7 +1,7 @@
 # Hello World with jQuery.
 
 ## jQuery - npm installed and required
-
+*see npmJQuery branch.*
 First we delete the script tags that call's the jQuery cdn.
 Our index.html looks like this:
 ```html

@@ -1,4 +1,5 @@
 # A more robust Hello World module
+*See robustModule branch.*
 
 We're able to name space and return an object of functions. robust.sayHello takes a name and returns `Hello ${name}`.  Triple imports the times function from lodash and triples a passed in number. And robust.sayHelloToMyLittleFriends takes an array and passes it into a handlebars template and returns that back to index.js. This is the advantage of modularization that Browserify provides.
 ```javascript
