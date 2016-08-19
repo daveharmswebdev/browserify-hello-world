@@ -4,12 +4,35 @@
   "description": "An exploration of Browserify and the 'Hello World' theme.",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.1.0"
+    "handlebars": "^4.0.5",
+    "hbsfy": "^2.7.0",
+    "jquery": "^3.1.0",
+    "lodash": "^4.15.0"
   },
   "devDependencies": {},
   "scripts": {
     "watch": "watchify src/index.js -o dist/bundle.js -v -d",
     "build": "browserify src/index.js -o dist/bundle.js -v"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "hbsfy",
+        {
+          "extensions": [
+            "hbs"
+          ],
+          "precompilerOptions": {
+            "knownHelpersOnly": true,
+            "knownHelpers": {
+              "myUltimateHelper": true,
+              "bold": true,
+              "bold2": true
+            }
+          }
+        }
+      ]
+    ]
   },
   "repository": {
     "type": "git",
