@@ -2,5 +2,6 @@
 'use strict';
 
 const $ = require('jQuery');
+const hw = require('./helloWorld');
 
-$('body').append('<h1>Hello World</h1>');
+$('body').append(`<h1>${hw}!</h1>`);
