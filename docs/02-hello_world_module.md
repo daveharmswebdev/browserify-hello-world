@@ -1,4 +1,5 @@
 # Modularizing with 'require' and 'module.exports'
+*See hwModule branch*.
 
 The simplest module we could make would be one that held a value such as a string:
 ```javascript
