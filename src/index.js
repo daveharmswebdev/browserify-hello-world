@@ -1,5 +1,6 @@
+/* jshint -W079 */
 'use strict';
 
-$(function() {
-  $('body').append('<h1>Hello World</h1>');
-});
+const $ = require('jQuery');
+
+$('body').append('<h1>Hello World</h1>');

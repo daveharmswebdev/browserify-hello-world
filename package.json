@@ -8,9 +8,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "watch": "watchify src/index.js -o dist/bundle.js -v",
+    "watch": "watchify src/index.js -o dist/bundle.js -v -d",
     "build": "browserify src/index.js -o dist/bundle.js -v"
-   },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daveharmswebdev/browserify-hello-world.git"
