@@ -7,12 +7,12 @@ An exploration of Browserify and the 'Hello World' theme.
 ```
 npm install -g watchify browserify
 ```
-2. npm init and add the watch and build scripts, with the caveat that you will place your index.js in /src and your bundle.js in /dist.
+2. npm init and add the watch and build scripts, with the caveat that you will place your index.js in /src and your bundle.js in /dist. The '-v' tag is for verbose output to the terminal. And the -d allows for easy debugging; even though all the javascript is bundled into one file, you will still be able see each file in Chrome dev tools due to Browserify file mapping.
 ```json
   {
     "scripts": {
-      "build": "browserify src/index.js -o dist/bundle.js",
-      "watch": "watchify src/index.js -o dist/bundle.js"
+      "build": "browserify src/index.js -o dist/bundle.js -d",
+      "watch": "watchify src/index.js -o dist/bundle.js -v -d"
     }
   }
 ```
