@@ -28,3 +28,11 @@ $(function() {
   $('body').append('<h1>Hello World</h1>');
 });
 ```
+Broswerify bundled our index.js, but so far we really haven't gotten a lot of mileage out of the process.
+```bash
+> browserify-hello-world@1.0.0 watch /Users/dave/workspace/talks/browserify-hello-world
+> watchify src/index.js -o dist/bundle.js -v
+
+576 bytes written to dist/bundle.js (0.03 seconds)
+```
+So let's npm install jQuery and start to exploit Broswerify's ability to use 'require.'
